@@ -1,0 +1,50 @@
+.dogs{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+    /* justify-content: space-around; */
+    background-color: rgb(216, 212, 212);
+    
+    width: 100%;
+    /* top: ; */
+    /* right: 5%; */
+    flex-wrap: wrap ;
+    /* bottom: 5px; */
+    
+}
+.loadingcheems{
+    width: 400px;
+    animation-name: rotation;
+    animation-timing-function: linear;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+}
+
+.errornetwork{
+    color: red;
+    font-size: larger;
+    
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(90deg);
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+        
+        transform: rotate(270deg);
+    }
+    75%{
+        
+        transform: rotate(360deg);
+    }
+    100%{
+        
+        transform: rotate(90deg);
+    }
+}

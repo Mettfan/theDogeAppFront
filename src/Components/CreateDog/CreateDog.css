@@ -1,0 +1,50 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px 60px 60px;
+    /* width: 50%; */
+    
+}
+
+input{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 3px 15px 3px;
+}
+.buttoncreate{
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+
+}
+.height-input{
+
+    width: 40px;
+
+}
+.weight-input{
+    width: 40px;
+    
+
+}
+.lifespan-input{
+    width: 50px;
+}
+.dognameinput{
+    display: flex;
+    flex-direction: column;
+    
+}
+.dogheightinput{
+
+}
+.dogweightinput{
+
+}
+.doglifespaninput{
+
+}
+.dogPreview{
+    position: relative;
+    
+}
